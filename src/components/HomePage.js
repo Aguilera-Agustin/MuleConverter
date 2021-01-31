@@ -64,9 +64,10 @@ export const HomePage = () => {
             
         </form>
 
-        <div style={{width : "100%"}} className="d-flex container justify-content-end my-2" >
+        <div style={{width : "100%"}} className="d-flex container justify-content-between my-2" >
             
           
+        <p>Loremaskidomasiodmnasiopdnioasndioasnñdnioañidnhasudnasiojdnojuasnñojun</p>
           <CopyButton className="btn btn-outline-primary"  text={newText} />  
         </div>
         </>
