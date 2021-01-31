@@ -15,7 +15,7 @@ export const HomePage = () => {
     }
     const [oldText, setOldText] = useState("")
     const [newText, setNewText] = useState("")
-    const [options, setOptions] = useState({variableConverter: false, conditionalConverter : true})
+    const [options, setOptions] = useState({variableConverter: false, conditionalConverter : false})
     const handleSubmit = (e) => {
         e.preventDefault()
         setNewText(transformData(oldText, options))
