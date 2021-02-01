@@ -12,7 +12,8 @@ export const HomePage = () => {
         whiteSpace: "pre",
         overflowWrap: "normal",
         overflowX: "scroll",
-        height : "100%"
+        height : "100%",
+        resize:"none"
     }
     const [oldText, setOldText] = useState("")
     const [newText, setNewText] = useState("")
@@ -64,11 +65,11 @@ export const HomePage = () => {
             
         </form>
 
-        <div style={{width : "100%"}} className="d-flex container justify-content-between my-2" >
+        <div style={{width : "100%"}} className="d-flex container justify-content-between my-4" >
             
           
-        <p>Loremaskidomasiodmnasiopdnioasndioasnñdnioañidnhasudnasiojdnojuasnñojun</p>
-          <CopyButton className="btn btn-outline-primary"  text={newText} />  
+            <p>Tool designed and created 100% by <a href="https://www.linkedin.com/in/aguilera-agustin/">Agustin Aguilera</a>  </p> 
+            <CopyButton className="btn btn-outline-primary"  text={newText} />  
         </div>
         </>
     )
