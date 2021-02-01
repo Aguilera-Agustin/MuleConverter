@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/Aguilera-Agustin/MuleConverter.git/static/js/main.c19661f8.chunk.js",
+    "main.js.map": "/Aguilera-Agustin/MuleConverter.git/static/js/main.c19661f8.chunk.js.map",
+    "runtime-main.js": "/Aguilera-Agustin/MuleConverter.git/static/js/runtime-main.e42ca3c0.js",
+    "runtime-main.js.map": "/Aguilera-Agustin/MuleConverter.git/static/js/runtime-main.e42ca3c0.js.map",
+    "static/js/2.d3f5e778.chunk.js": "/Aguilera-Agustin/MuleConverter.git/static/js/2.d3f5e778.chunk.js",
+    "static/js/2.d3f5e778.chunk.js.map": "/Aguilera-Agustin/MuleConverter.git/static/js/2.d3f5e778.chunk.js.map",
+    "index.html": "/Aguilera-Agustin/MuleConverter.git/index.html",
+    "static/js/2.d3f5e778.chunk.js.LICENSE.txt": "/Aguilera-Agustin/MuleConverter.git/static/js/2.d3f5e778.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e42ca3c0.js",
+    "static/js/2.d3f5e778.chunk.js",
+    "static/js/main.c19661f8.chunk.js"
+  ]
+}
