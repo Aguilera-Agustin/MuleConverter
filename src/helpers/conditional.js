@@ -17,7 +17,7 @@ export const conditional = ( text, variableConverter, conditionalConverter  ) =>
                  comma = ""
             }
             const elementElseAction = (element.slice(element.indexOf("otherwise")+9, latestCharacter))
-            const converted = elementKey + ":" + " if( " + elementCondition  + " ) ( " + elementAction + ") else ( " + elementElseAction + " )" + comma + "\n"
+            const converted = `${elementKey}: if ( ${elementCondition} ) ( ${elementAction} ) else ( ${elementElseAction} )${comma} \n`
             myReturn += converted
         }
         else{
