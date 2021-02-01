@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { transformData } from '../helpers/transformData'
+import { CopyButton } from './CopyButton'
 import { Header } from './Header'
 
 export const HomePage = () => {
@@ -62,6 +63,13 @@ export const HomePage = () => {
             <textarea className="form-control" placeholder="Leave a comment here" style={areaStyle} value={newText} onChange={(e) => {setOldText(e.target.value)}}></textarea>
             
         </form>
+
+        <div style={{width : "100%"}} className="d-flex container justify-content-between my-2" >
+            
+          
+        <p>Loremaskidomasiodmnasiopdnioasndioasnñdnioañidnhasudnasiojdnojuasnñojun</p>
+          <CopyButton className="btn btn-outline-primary"  text={newText} />  
+        </div>
         </>
     )
 }
