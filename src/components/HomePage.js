@@ -44,11 +44,11 @@ export const HomePage = () => {
         <div className="d-flex align-items-center justify-content-center my-2" style={{width : "100vw"}}>
             <div className = "mx-4">
                 <input className="form-check-input mx-1" type="checkbox" id="variableConverter"  value={options.variableConverter} onChange={() => handleChange("variableConverter")}/>
-                <label className="form-check-label" htmlFor="variableConverter" >Variable Transformation</label>
+                <label className="form-check-label" htmlFor="variableConverter" >Variable Transform</label>
             </div>
             <div>
                 <input className="form-check-input mx-1" type="checkbox" id="conditionalConverter"  value={options.conditionalConverter} onChange={() => handleChange("conditionalConverter")}/>
-                <label className="form-check-label" htmlFor="conditionalConverter" >Conditional Transformation</label>
+                <label className="form-check-label" htmlFor="conditionalConverter" >Conditional Transform</label>
             </div>
         </div>
         <form style={editorStyle} className="d-flex container justify-content-between" onSubmit = {handleSubmit} >
