@@ -53,7 +53,7 @@ export const HomePage = () => {
         </div>
         <form style={editorStyle} className="d-flex container justify-content-between" onSubmit = {handleSubmit} >
             
-            <textarea className="form-control" placeholder="Put your old code here." style={areaStyle} value={oldText} onChange={(e) => {setOldText(e.target.value)}}></textarea>
+            <textarea className="form-control" placeholder="Put your Mule 3 code here." style={areaStyle} value={oldText} onChange={(e) => {setOldText(e.target.value)}}></textarea>
             
 
             <div className="align-self-center mx-2">
@@ -61,7 +61,7 @@ export const HomePage = () => {
                 <button type="submit" className="btn btn-primary my-3">CONVERT</button>
                 
             </div>
-            <textarea className="form-control" placeholder="Leave a comment here" style={areaStyle} value={newText} onChange={(e) => {setOldText(e.target.value)}}></textarea>
+            <textarea className="form-control" placeholder="Your Mule 4 code after conversion" style={areaStyle} value={newText} onChange={(e) => {setOldText(e.target.value)}}></textarea>
             
         </form>
 
